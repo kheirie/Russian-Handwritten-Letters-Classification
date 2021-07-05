@@ -3,6 +3,7 @@ This project is a Multi-Class and Multi-Label Classification of russian handwrit
 
 ## Data 
 The dataset can be found https://www.kaggle.com/olgabelitskaya/classification-of-handwritten-letters 
+
 Letter Symbols => Letter Labels
 а=>1, б=>2, в=>3, г=>4, д=>5, е=>6, ё=>7, ж=>8, з=>9, и=>10,
 й=>11, к=>12, л=>13, м=>14, н=>15, о=>16, п=>17, р=>18, с=>19, т=>20,
@@ -11,6 +12,6 @@ Letter Symbols => Letter Labels
 
 Image Backgrounds => Background Labels
 striped=>0, gridded=>1, no background=>2, graph paper=>3
-
+## 
 The project is both multi-class and multi-label classification problem. It is **Multi-Class** since there are more than two classes to classify - i.e. 33 letters and 4 different backgrounds, and **Multi-Label** since there are two class labels to predict, letters and backgrounds.
 
