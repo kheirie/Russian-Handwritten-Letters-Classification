@@ -1,5 +1,5 @@
 # Russian-Handwritten-Letters-Classification
-This project was done for learning purpose. It focuses on classifying Russian handwritten letters written on different paper backgrounds. It is designed as both a Multi-Class and Multi-Label Classification problem.
+This project was done for learning purposes. It focuses on classifying Russian handwritten letters written on different paper backgrounds. It is designed as both a Multi-Class and Multi-Label Classification problem.
 - Multi-Class Classification: There are more than two possible classes — 33 unique letters and 4 different backgrounds.
 - Multi-Label Classification: Each image has two labels to predict:
     - The letter (from а → я)
@@ -24,4 +24,16 @@ gridded       => 1
 no background => 2  
 graph paper   => 3
 ```
+## Metrics and Evaluation 
+This project was evaluated using a combination of metrics to better capture performance on a multi-class, multi-label classification task.
+- Precision: how many predicted labels were correct.
+- Recall: how many actual labels were correctly identified.
+- F1-score: the harmonic mean of precision and recall, balancing both.
+- Exact Match Accuracy: percentage of samples where both labels (letter + background) were predicted correctly.
+
+The model achieved the following results on the validation set:
+- Weighted F1-score: 0.96
+- Macro F1-score: 0.94
+- Exact Match Accuracy: 88.4%
+
 
